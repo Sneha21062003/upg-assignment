@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-items: center;
+    
+}
+.card{
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    margin-left: 30px;
+    padding: 20px;
+    border: 2px solid black;
+}
+  
+    
+
+.card1{
+    background-image: url("box1_image.jpg");
+    background-size: cover;
+}
+.card2{
+    background-image: url("box2_image.jpg");
+    background-size: cover;
+}
+.card3{
+    background-image: url("box3_image.jpg");
+    background-size: cover;
+}
+ .card4{
+    background-image: url("box4_image.jpg");
+    background-size: cover;
+ }
+ .card p{
+    align-items: top;
+    font-weight: 10;
+    color: rgb(26, 20, 20);
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+ }
